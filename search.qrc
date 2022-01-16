@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix2">
+        <file>search.jpg</file>
+        <file>emergency.png</file>
+        <file>aiwanting.jpeg</file>
+        <file>cyys.jpeg</file>
+        <file>ifs.jpeg</file>
+        <file>juzizhou.jpeg</file>
+        <file>pozi.jpeg</file>
+        <file>taiping.jpeg</file>
+        <file>xlx.jpeg</file>
+        <file>map.png</file>
+    </qresource>
+</RCC>

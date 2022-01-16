@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/surfaceImg">
+        <file>checkoutbgi.png</file>
+        <file>canteen.png</file>
+        <file>frontdesk.png</file>
+        <file>friedRice.jpg</file>
+        <file>normal.jpg</file>
+        <file>seafood.jpg</file>
+        <file>stake.jpg</file>
+        <file>fruit.jpeg</file>
+        <file>breakfast.jpg</file>
+        <file>iceJuice.jpg</file>
+        <file>rum.jpg</file>
+        <file>wine.jpg</file>
+        <file>largeMr.jpeg</file>
+        <file>midMr.jpeg</file>
+        <file>smallMr.jpg</file>
+        <file>massage.jpeg</file>
+        <file>pool.jpeg</file>
+        <file>spa.jpg</file>
+        <file>cleanup.png</file>
+        <file>makebed.jpeg</file>
+        <file>hygiene.jpeg</file>
+        <file>map2.png</file>
+        <file>cs.jpg</file>
+        <file>mzx.jpeg</file>
+    </qresource>
+</RCC>

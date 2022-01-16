@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Notice</class>
+ <widget class="QWidget" name="Notice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Notice{border-image:url(:/surfaceImg/frontdesk.png)}
+</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>401</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(250, 255, 233)</string>
+   </property>
+   <property name="plainText">
+    <string>尊敬的顾客：
+欢迎入住本酒店！
+入住酒店之后，在前台根据姓名和身份证号创建账户之后就可以使用本系统了。
+本系统主要为您提供点餐服务、客房服务、娱乐项目预订、紧急疏散地图展示、周边景点推荐等服务。
+在本系统点餐之后，费用将会在退房时自动计入你的房费当中。
+当险情发生时，可以根据系统中的逃生地图找到最近的疏散路线。
+如有其他疑问，请用固定电话拨打8888至前台处询问。
+希望您在本酒店住宿期间有愉快的体验！</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>480</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Notice</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>336</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

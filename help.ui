@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QDialog" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>644</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 254, 202)</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>630</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0))</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>581</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(255, 234, 207)</string>
+   </property>
+   <property name="plainText">
+    <string>帮助文档：
+============================================================
+1.本系统由Qt中自带的数据库Sqlite为数据储存的基础
+------------------------------------------------------------
+2.系统分为一个开始界面以及五个主界面，包括前台使用的check in system界面，预订房间使用的reserve界面，退房使用的check out system界面，搜索顾客信息的search界面以及现在所在的帮助界面
+------------------------------------------------------------
+3.check in system界面中，需要输入顾客的姓名、身份证号、需要占用房间的天数、房间类型以及房间号，由于前台操作是实时的，所以开放时间虽然可调，但是系统仍会在后台改为当前时间
+cancel按下后将会清空表单信息，quit按下后将会退出界面，这两个按钮按下后均不会造成后台数据改变
+------------------------------------------------------------
+4.check out界面中，选择好房间号后按下check键，下面对应的位置会跳出顾客姓名，方便再次确认，住宿天数以及应缴房费也会在相应位置跳出。在点击check out之后，该顾客的信息会被清空
+------------------------------------------------------------
+5.reserve界面是实现顾客预订房间的，因此虽然与前台系统界面很相似，但是它的入住时间可以更改，其他操作与前台相同
+------------------------------------------------------------
+6.search界面一共有三种搜索模式，在对应的搜索模式前文本框中输入信息，点击相应按钮进行查询，若查询到顾客的存在，会在后文本框中显示出详细信息，否则会跳出消息框提示没有相应顾客
+------------------------------------------------------------
+7.reset按钮用于抹去所有的顾客信息
+------------------------------------------------------------
+8.other services页面用于顾客的客房服务点单、娱乐设施消费等的选择菜单，顾客点单之后，其消费自动转入房费中
+9.back stage作为收银台查看点单的页面，在完成订单后点击complete后点单将会销单
+10.为保证系统稳定，除登录页面以及本帮助文档外，系统为全英文系统
+============================================================</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Help</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>556</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>321</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

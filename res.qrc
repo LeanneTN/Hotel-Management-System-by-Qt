@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>mainBack.jpg</file>
+        <file>rew.png</file>
+        <file>cos.png</file>
+        <file>hygiene.jpeg</file>
+        <file>makebed.jpeg</file>
+        <file>cleanup.png</file>
+        <file>hnr.jpeg</file>
+        <file>bdm.mp3</file>
+        <file>Eagles - Hotel California.mp3</file>
+    </qresource>
+</RCC>
